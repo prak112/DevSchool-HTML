@@ -1,24 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@700&display=swap');
+
+html{
+    font-family: 'Life Savers', cursive;
+}
+
 body{
     background-color: aliceblue;
     background-image: url("/images/cats/universe_bg.jpg");
 }
+
 p{
     padding-bottom: 2%;
 }
-img{
-    border-radius: 5%;
-    padding-left: 5%;
+
+.header{
+    padding-top: 15px;
+    text-shadow: 3px 3px 1px rebeccapurple;
 }
+
+img{
+    border-radius: 10%;
+    padding-left: 3%;
+    width: 400px;
+    height: 400px;
+}
+
+img:hover{
+    width: 600px;
+    height: 600px;
+}
+
 h1, p, ul{
     color: palegreen;
+    letter-spacing: 2px;
 }
+
 ul{
     font-size: 125%;
 }
+
+li:hover{
+    font-size: 125%;
+    border: 3px solid lightblue;
+}
+
 .credits{
     color:plum;
-    font-size: 150%;
+    font-size: 75%;
 }
+
 a:hover{
     color:chartreuse;
+    font-size: larger;
+}
+
+.footer{
+    text-align: center;
+    font-size: larger;
+    padding: 10px 10px 20px 40px;
+}
+.footer:hover{
+    font-size: 200%;
+    text-shadow: 3px 3px 1px beige;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
