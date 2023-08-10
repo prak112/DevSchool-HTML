@@ -1,0 +1,24 @@
+body{
+    background-color: aliceblue;
+    background-image: url("/images/cats/universe_bg.jpg");
+}
+p{
+    padding-bottom: 2%;
+}
+img{
+    border-radius: 5%;
+    padding-left: 5%;
+}
+h1, p, ul{
+    color: palegreen;
+}
+ul{
+    font-size: 125%;
+}
+.credits{
+    color:plum;
+    font-size: 150%;
+}
+a:hover{
+    color:chartreuse;
+}
