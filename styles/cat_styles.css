@@ -16,6 +16,7 @@ p{
 .header{
     padding-top: 15px;
     text-shadow: 3px 3px 1px rebeccapurple;
+    transition-duration: 0.3s;
 }
 
 img{
@@ -23,11 +24,13 @@ img{
     padding-left: 3%;
     width: 400px;
     height: 400px;
+    transition-duration: 0.3s;
 }
 
 img:hover{
     width: 600px;
     height: 600px;
+    transition-duration: 0.4s;
 }
 
 h1, p, ul{
@@ -37,22 +40,26 @@ h1, p, ul{
 
 ul{
     font-size: 125%;
+    transition-duration: 0.3s;
 }
 
 li:hover{
     font-size: 125%;
     border: 3px solid lightblue;
+    transition-duration: 0.4s;
 }
 
 .credits{
     color:plum;
-    font-size: 75%;
+    font-size: 90%;
     padding-bottom: 50px;
+    transition-duration: 0.3s;
 }
 
 a:hover{
     color:chartreuse;
     font-size: larger;
+    transition-duration: 0.4s;
 }
 
 button{
@@ -61,7 +68,7 @@ button{
     border: 2px solid lightcoral;
     border-radius: 15px;
     box-shadow: 0 10px #999;
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
     padding: 40px 40px 40px 40px;
 }
 button:hover{
@@ -85,4 +92,5 @@ button:active{
     text-shadow: 3px 3px 1px blue;
     padding-top: 100px;
     padding-bottom: 100px;
+    transition-duration: 0.4s;
 }
