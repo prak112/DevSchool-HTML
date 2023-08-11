@@ -43,11 +43,12 @@ ul{
     transition-duration: 0.3s;
 }
 
+
 li:hover{
-    font-size: 125%;
-    border: 3px solid lightblue;
+    border: 3px solid lightsalmon;
     transition-duration: 0.4s;
 }
+
 
 .credits{
     color:plum;
@@ -75,6 +76,7 @@ button:hover{
     background-color: lightcoral;
     color: white;
     font-size: large;
+    transition-duration: 0.4s;
 }
 button:active{
     background-color: darksalmon;
@@ -86,6 +88,7 @@ button:active{
     text-align: center;
     font-size: larger;
     padding: 10px 10px 20px 40px;
+    transition-duration: 0.3s;
 }
 .footer:hover, .header:hover{
     font-size: 200%;
@@ -98,7 +101,7 @@ button:active{
 .footnote{
     text-align: right;
     font-size: medium;
-    padding: 10px 10px 20px 40px;
+    padding: 20px 40px 20px 40px;
 }
 .footnote:hover{
     font-size: 100%;
