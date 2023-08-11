@@ -41,6 +41,13 @@ function setUserName(){
     }    
 }
 
+// button functionality for returning back to top
+function backToTop(){
+    document.body.scrollTop = 0; // for Safari
+    document.documentElement.scrollTop = 0; // for Chrome, Firefox, Edge, Opera
+}
+
+
 // function initialization
 if(!localStorage.getItem("name")){
     setUserName();
@@ -52,4 +59,5 @@ else{
 
 changeButton.onclick = () => { 
     setUserName();
+    backToTop();
 };
