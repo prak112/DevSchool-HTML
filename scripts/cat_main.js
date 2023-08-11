@@ -1,7 +1,9 @@
 // source html - cat_index.html
-// modify header
+// modify header---sample
+/* 
 const introHeading = document.querySelector("h1");
 introHeading.textContent = "Introducing... The Super Cats!";
+*/ 
 
 // sample click event to list elements
 document.querySelector("ul").addEventListener("click", () => {
