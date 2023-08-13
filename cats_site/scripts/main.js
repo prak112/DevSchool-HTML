@@ -1,4 +1,4 @@
-// source html - cat_index.html
+// source html - cats_site/index.html
 // modify header---sample
 /* 
 const introHeading = document.querySelector("h1");
