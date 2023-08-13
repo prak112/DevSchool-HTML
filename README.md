@@ -11,6 +11,4 @@
 
 # Topics Learned
 - Basic website interactivity with Javascript
-- [Publishing first website using GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
-    - Visit my ["SuperCats"]() page
-    - Check my code - [HTML](/cats_site/index.html), [CSS](/cats_site/styles/styles.css), [Javascript](/cats_site/scripts/main.js)
+- Publishing first website using GitHub - [SuperCats](https://github.com/prak112/DevSchool-HTML/tree/supercats)
