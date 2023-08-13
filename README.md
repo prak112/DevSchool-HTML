@@ -12,3 +12,31 @@
 # Topics Learned
 - Basic website interactivity with Javascript
 - Publishing first website using GitHub - [SuperCats](https://github.com/prak112/DevSchool-HTML/tree/supercats)
+- GIT Orphan Branch :
+	- Usage for static websites, or static parts of major project like thesis
+	- Some standard commands for working between branches
+	
+        ```bash
+        $git checkout orphan newbranch  
+        :'to create and move to created orphan branch -"newbranch"'
+        ```
+        
+        ```bash
+        $git rm director/*  
+        :'to remove non-essential directory from "newbranch" including the files'
+        ```
+
+        ```bash
+        $git fetch origin  
+        :'to identify if any changes in upstream(remote branch)'
+        ```
+        
+        ```bash
+        $git diff HEAD @{u} --name-only 	
+        :'to check which files will be changed on the next pull'
+        ```
+
+        ```bash
+        $git pull --rebase 	
+        :'to create a linear history of commits, used since "main" branch is key in current repo. Also aware that it is NOT recommended for	beginners'
+        ```
