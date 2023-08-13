@@ -28,6 +28,14 @@
         ```
 
         ```bash
+        : 'different ways to create a file'
+
+        $ touch README.md       : 'only creates a README'
+        $ echo newFile.txt      : 'only creates a newFile'
+        $ cat > anyFile.txt     : 'creates and can start appending right away'
+        ```
+
+        ```bash
         :'generally used after git commit'
 
         $ git fetch origin  
