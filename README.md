@@ -11,7 +11,7 @@
 
 # Topics Learned
 - Basic website interactivity with Javascript
-- Publishing first website using GitHub - [SuperCats](https://github.com/prak112/DevSchool-HTML/tree/supercats)
+- Publishing first website using GitHub - [Check code here](https://github.com/prak112/DevSchool-HTML/tree/supercats)
 - GIT Orphan Branch : 
     - Thanks to the [short snippet from DEV Community blog](https://dev.to/mcaci/how-to-create-an-orphan-branch-in-git-35ac)
 	- Usage for static websites, or static parts of major project like thesis
