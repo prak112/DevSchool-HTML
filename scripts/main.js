@@ -18,11 +18,11 @@ document.querySelector("ul").addEventListener("click", () => {
 const catImage = document.querySelector("img");
 catImage.onclick = () => {
     const imgSrc = catImage.getAttribute("src");
-    if (imgSrc === "/images/cats/waltz-cat.jpg"){
-        catImage.setAttribute("src", "/images/Firefox_logo_2017.png");
+    if (imgSrc === "images/cats/waltz-cat.jpg"){
+        catImage.setAttribute("src", "images/Firefox_logo_2017.png");
     }
     else{
-        catImage.setAttribute("src", "/images/cats/waltz-cat.jpg");
+        catImage.setAttribute("src", "images/cats/waltz-cat.jpg");
     }
 };
 
