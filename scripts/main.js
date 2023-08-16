@@ -19,7 +19,7 @@ const catImage = document.querySelector("img");
 catImage.onclick = () => {
     const imgSrc = catImage.getAttribute("src");
     if (imgSrc === "images/cats/waltz-cat.jpg"){
-        catImage.setAttribute("src", "images/Firefox_logo_2017.png");
+        catImage.setAttribute("src", "images/firefox-logo.jpg");
     }
     else{
         catImage.setAttribute("src", "images/cats/waltz-cat.jpg");
