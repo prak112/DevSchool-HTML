@@ -85,6 +85,7 @@ button:active{
 }
 
 .footer{
+    color:aquamarine;
     text-align: center;
     font-size: larger;
     padding: 10px 10px 20px 40px;
