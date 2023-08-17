@@ -3,8 +3,11 @@
     - HTML5
     - CSS3, Getting started with [Bootstrap](/test_html/index.html) 
     - Javascript
+
 </br>
-- Resources helping to make decisions :
+
+- Helpful Resources :
+    - [freeCodeCamp learning platform](https://www.freecodecamp.org/learn) 
     - freeCodeCamp blogpost - [Automate and Improve Web development workflow](https://www.freecodecamp.org/news/how-to-improve-your-web-development-workflow/)
     - MDN Docs - [Getting Started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software)
     - [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) 
