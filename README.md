@@ -13,16 +13,16 @@
         ```
         images/cats/waltz-cat.jpg
         ```
-    - In `styles.css` changed filepath
+    - In `styles.css` changed value (filepath) in `background-image` attribute
 
         **FROM**  
         ```
-        background-image : url(/images/cats/universe_bg.jpg)
+        /images/cats/universe_bg.jpg
         ```  
         **TO** 
         ```
-        background-image: url("DevSchool-HTML/../../images/cats/universe_bg.jpg");
+        DevSchool-HTML/../../images/cats/universe_bg.jpg;
         ```
-    - In `main.js` changed **FROM**
+    - In `main.js` changed image format **FROM**
     *firefox-logo.png* **TO** *firefox-logo.jpg*
 - Local Server rendering as expected (standard reference point)
