@@ -23,15 +23,16 @@
 <details>
 <summary>Basic website interactivity with Javascript</summary>
 
-####  Browser APIs
-- Browser APIs aid in the interaction between HTML conent and CSS styles and collecting, generating/manipulating audio and/or video content
-- Document Object Model (DOM) API  
-    - Builds interaction by addressing specific elements in `index.html` such as,
-        - on_click Events for alerts, swapping content
-        - Modify headers, paragraphs
-- Web Storage API
-    - Locally stores the user input on their browser
-    - Allows access and displaying the content using DOM API
+####  Browser/Web APIs
+- They aid in the interaction between HTML conent and CSS styles and collecting, generating/manipulating audio and/or video content.
+- Amongst a [different categories of APIs](https://www.educative.io/answers/what-are-browser-apis), following are the ones we used.
+#### Document Object Model (DOM) API  
+- Builds interaction by addressing specific elements in `index.html` such as,
+    - on_click Events for alerts, swapping content
+    - Modify headers, paragraphs
+#### Web Storage API
+- Locally stores the user input on their browser
+- Allows access and displaying the content using DOM API
 </details>
 
 <details>
