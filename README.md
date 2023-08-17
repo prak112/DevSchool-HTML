@@ -20,44 +20,75 @@
 
 
 ## Topics Learned
-- Basic website interactivity with Javascript
-- GIT Orphan Branch : 
-    - Thanks to the [short snippet from DEV Community blog](https://dev.to/mcaci/how-to-create-an-orphan-branch-in-git-35ac)
-	- Usage for static websites, or static parts of major project like thesis
-	- Some standard commands for working between branches
-	
-        ```bash
-        $ git checkout orphan newbranch  
-        :'to create and move to created orphan branch -"newbranch"'
-        ```
-        
-        ```bash
-        $ git rm director/*  
-        :'to remove non-essential directory from "newbranch" including the files'
-        ```
+<details>
+<summary>Basic website interactivity with Javascript</summary>
+- Document Object Model (DOM)
+- Web browser storage
+</details>
 
-        ```bash
-        : 'different ways to create a file'
+<details>
+<summary>GIT Orphan Branch</summary>
 
-        $ touch README.md       : 'only creates a README'
-        $ echo newFile.txt      : 'only creates a newFile'
-        $ cat > anyFile.txt     : 'creates and can start appending right away'
-        ```
+#### What is a Git Orphan branch ?
+- A Git branch, in general, is used for developing a feature or resolving a bug, so a project progresses without lag.
+- A Git Orphan branch provides the possibility to start from zero, i.e., not share any commit history with either the main branch or any other branches.
+- Hence a perfect setup for hosting a static github page!
+- Thanks to the [short snippet from DEV Community blog](https://dev.to/mcaci/how-to-create-an-orphan-branch-in-git-35ac)
+- They are used for :
+    - static websites, 
+    - static parts of major project like a thesis,
+    - to host an open-source part of a commercial software
 
-        ```bash
-        :'generally used after git commit'
+#### How to create and handle a Git Orphan branch ?
+```bash
+    $ git checkout orphan newbranch  
+    :'to create and move to created orphan branch -"newbranch"'
+```
+    
+```bash
+    $ git rm director/*  
+    :'to remove non-essential directory from "newbranch" including the files'
+```
 
-        $ git fetch origin  
-        :'to identify if any changes in upstream(remote branch)'
-        ```
-        
-        ```bash
-        $ git diff HEAD @{u} --name-only 	
-        :'to check which files will be changed on the next pull'
-        ```
+```bash
+    : 'different ways to create a file'
 
-        ```bash
-        $ git pull --rebase 	
-        :'to create a linear history of commits, used since "main" branch is key in current repo. Also aware that it is NOT recommended for beginners'
-        ```
+    $ touch README.md       : 'only creates a README'
+    $ echo newFile.txt      : 'only creates a newFile'
+    $ cat > anyFile.txt     : 'creates and can start appending right away'
+```
 
+```bash
+    :'generally used after git commit'
+
+    $ git fetch origin  
+    :'to identify if any changes in upstream(remote branch)'
+```
+
+```bash
+    $ git diff HEAD @{u} --name-only 	
+    :'to check which files will be changed on the next pull'
+```
+
+```bash
+    $ git pull --rebase 	
+    :'to create a linear history of commits, used since "main" branch is key in current repo. Also aware that it is NOT recommended for beginners'
+```
+
+</details>
+    
+
+
+<details>
+<summary>Publishing static website using GitHub Pages</summary>
+
+#### What is a Static website ?
+- Websites which are read-only, and the content does not change based on the user activity
+- This website is build from pre-built component files (HTML, CSS, JS) stored on a web server, in our case GitHub Pages.
+- Check [Hubspot blogpost](https://blog.hubspot.com/website/static-vs-dynamic-website) more info.
+
+#### How to publish a Static website ?
+
+
+
+</details>
