@@ -14,7 +14,7 @@
 
 
 ## Projects
-- [SuperCats website](https://github.com/prak112/DevSchool-HTML/tree/supercats)
+- [SuperCats](https://github.com/prak112/DevSchool-HTML/tree/supercats)
     - Build website using HTML, CSS & JS
     - Publish website using GitHub
 
@@ -22,8 +22,16 @@
 ## Topics Learned
 <details>
 <summary>Basic website interactivity with Javascript</summary>
-- Document Object Model (DOM)
-- Web browser storage
+
+####  Browser APIs
+- Browser APIs aid in the interaction between HTML conent and CSS styles and collecting, generating/manipulating audio and/or video content
+- Document Object Model (DOM) API  
+    - Builds interaction by addressing specific elements in `index.html` such as,
+        - on_click Events for alerts, swapping content
+        - Modify headers, paragraphs
+- Web Storage API
+    - Locally stores the user input on their browser
+    - Allows access and displaying the content using DOM API
 </details>
 
 <details>
@@ -74,7 +82,6 @@
     $ git pull --rebase 	
     :'to create a linear history of commits, used since "main" branch is key in current repo. Also aware that it is NOT recommended for beginners'
 ```
-
 </details>
     
 
@@ -88,7 +95,14 @@
 - Check [Hubspot blogpost](https://blog.hubspot.com/website/static-vs-dynamic-website) more info.
 
 #### How to publish a Static website ?
-
+- There are many services [as mentioned](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website) in MDN Web Docs
+- A free reliable source would be [GitHub Pages](https://docs.github.com/en/pages)
+- The process is as simple as hosting a repo and [following the instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) to deploy the website.
+- However, there are also certain details, which I learned the hard-way.
+1. IF the `index.html` file is accomodated with `styles.css` and `main.js` files, then it is mandatory to add `.nojekyll` file in the same directory as the `index.html`.  This step renders the static website without looking for `_config.yml` to define the Jekyll theme.
+2. Filepaths must begin with directory name, NEVER a "/"
+3. Keep image formats uniform, i.e., either all images are in `.jpg` or `.png` format, not both.
+4. Filepaths inside `.css` file must [begin from the root directory.](https://github.com/prak112/DevSchool-HTML/tree/supercats#overview)
 
 
 </details>
