@@ -50,7 +50,7 @@
 
 #### How to create and handle a Git Orphan branch ?
 ```bash
-    $ git checkout orphan newbranch  
+    $ git checkout --orphan newbranch  
     :'to create and move to created orphan branch -"newbranch"'
 ```
     
