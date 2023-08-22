@@ -80,8 +80,8 @@
 ```
 
 ```bash
-    $ git pull --rebase 	
-    :'to create a linear history of commits, used since "main" branch is key in current repo. Also aware that it is NOT recommended for beginners'
+    $ git pull --rebase newbranch
+    :'to fetch changes from remote repo, rebase current branch on top of fetched branch. NOT recommended, Do your research'
 ```
 </details>
     
