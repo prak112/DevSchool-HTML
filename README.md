@@ -3,4 +3,4 @@
 - Content includes :
     - Projects
     - Socials
-    - Future Plans
+    - Learnings
