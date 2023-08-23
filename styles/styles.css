@@ -1,0 +1,37 @@
+body{
+    background-color: lightgrey;
+}
+
+h1, p{
+    text-align: center;
+    color: purple;
+}
+
+.container{
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    background-color: grey;
+    text-shadow: 4px 4px 4px grey;
+}
+
+.navigation-menu {
+    place-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation-menu li {
+    display: inline-block;
+  }
+  
+  .navigation-menu li a {
+    display: block;
+    padding: 10px;
+    color: chartreuse;
+  }
+  
+  .navigation-menu li a:hover {
+    background-color: rgba(0, 255, 0, 0.2);
+  }
+  
