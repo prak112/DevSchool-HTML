@@ -1,5 +1,15 @@
 body{
-    background-image: url("images/starry-galaxy-by-ai.jpg");
+    background-image: url("../images/starry-galaxy-by-ai.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@keyframes slide-in{
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0%);}
+}
+.image-container img{
+    animation: slide-in 3s ease-in-out infinite;
 }
 
 form{
@@ -8,9 +18,19 @@ form{
 
 .search-bar{
     padding: 2% 2% 2% 2%;
+    width: 500px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.language-selector, a:hover{
+    color: yellowgreen;
 }
 
 .footer{
+    text-emphasis-color: black;
+    text-shadow: cyan 0.1em 0.1em 0.2em;   
     text-align: right;
     font-style: oblique;
+    padding: 5%, 5%, 5%, 5%;
 }
