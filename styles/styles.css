@@ -1,0 +1,16 @@
+body{
+    background-image: url("images/starry-galaxy-by-ai.jpg");
+}
+
+form{
+    padding: 20% 20% 20% 20%;
+}
+
+.search-bar{
+    padding: 2% 2% 2% 2%;
+}
+
+.footer{
+    text-align: right;
+    font-style: oblique;
+}
