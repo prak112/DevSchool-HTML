@@ -1,6 +1,14 @@
+/*
+@media (max-width: 768px){
+    body{
+        background-size: contain;
+    }
+}
+*/
 body{
     background-image: url("../images/starry-galaxy-by-ai.jpg");
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -20,17 +28,29 @@ form{
     padding: 2% 2% 2% 2%;
     width: 500px;
     padding: 5px 10px;
+    border: 1px solid #ccc;
     border-radius: 10px;
 }
+.search-button{
+    display: block;
+    margin-top: 10px;
+    border: 1px solid navajowhite;
+    border-radius: 10px;
+    /* add button hover effect */
+}
 
+a{
+    color:bisque
+}
 .language-selector, a:hover{
     color: yellowgreen;
 }
 
 .footer{
     text-emphasis-color: black;
-    text-shadow: cyan 0.1em 0.1em 0.2em;   
+    text-shadow: cyan 0.1em 0.1em 0.1em;   
     text-align: right;
     font-style: oblique;
+    font-size: 15px;
     padding: 5%, 5%, 5%, 5%;
 }
