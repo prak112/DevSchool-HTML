@@ -17,6 +17,14 @@
 - [SuperCats](https://github.com/prak112/DevSchool-HTML/tree/supercats)
     - Build website using HTML, CSS & JS
     - Publish website using GitHub
+- [DevJournal](https://github.com/prak112/DevSchool-HTML/tree/devjournal)
+    - Work in progress
+    - Simple idea for a personal webpage
+- [MyGoogle](https://github.com/prak112/DevSchool-HTML/tree/googletest)
+    - Simplified version of Google homepage
+    - Part of CS50 Web Dev part1-project
+    - Add animation of Google logo
+    - Built in record-time with Codeium's help
 
 
 ## Topics Learned
