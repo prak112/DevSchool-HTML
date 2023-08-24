@@ -1,13 +1,10 @@
-/*
-@media (max-width: 768px){
-    body{
-        background-size: contain;
-    }
-}
-*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+
+
 body{
     background-image: url("../images/starry-galaxy-by-ai.jpg");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -43,11 +40,12 @@ a{
     color:bisque
 }
 .language-selector, a:hover{
+    font-family: 'Playfair Display', serif;
     color: yellowgreen;
 }
 
-.footer{
-    text-emphasis-color: black;
+.header{
+    text-emphasis-style: black;
     text-shadow: cyan 0.1em 0.1em 0.1em;   
     text-align: right;
     font-style: oblique;
