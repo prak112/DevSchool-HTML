@@ -1,28 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:ital,wght@1,100&display=swap');
+
+
 body{
-    background-color: lightgrey;
+    background-image: url("../images/neon-light-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1, p{
+    font-family: 'Raleway', sans-serif;
     text-align: center;
-    color: purple;
+    color: chocolate;
+    font-size: 50px;
+}
+
+pre{
+  font-family: 'Quicksand', sans-serif;
 }
 
 .container{
+    background-image: url("../images/CatOnly.png");
+    background-repeat: no-repeat;
+    background-size: 250px 400px;
+    background-position: center bottom;
     text-align: left;
-    padding: 20px;
-    margin: 20px;
-    background-color: grey;
-    text-shadow: 4px 4px 4px grey;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px black;
+    padding-left: 20px;
+    margin: 10px 10px 10px 10px;
 }
 
 .navigation-menu {
+    font-family: 'Quicksand', sans-serif;
+    display: subgrid;
+    font-size: 150%;
     place-content: center;
-    margin: 0;
-    padding: 0;
+    align-content: space-evenly;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
   }
   
   .navigation-menu li {
     display: inline-block;
+    align-items: stretch;
   }
   
   .navigation-menu li a {
