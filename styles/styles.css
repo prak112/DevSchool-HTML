@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+
+.container{
+    background-color: rgba(127, 255, 212, 0.5);
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-section{
+    padding: 20px 0px 10px 20px;
+    width: 40%;
+}
+
+.text-section{
+    padding: 40px 20px 10px 0px;
+    width: 40%;
+    font-size: 120%;
+}
+
+a:hover {
+    color: red;
+    font-size: 120%;
+}
