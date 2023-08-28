@@ -25,6 +25,10 @@
     - Part of CS50 Web Dev part1-project
     - Add animation of Google logo
     - Built in record-time with Codeium's help
+- [Multimedia content](https://github.com/prak112/DevSchool-HTML/tree/multimedia)
+    - Embed video content with poster and subtitles
+    - Style page in grid format
+    - Build navigation menu (as in devjournal) between different topics
 
 
 ## Topics Learned
