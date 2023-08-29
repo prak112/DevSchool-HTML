@@ -4,6 +4,7 @@ body{
 }
 
 h1, h2{
+    text-align: center;
     padding: 20px 20px 20px 20px;
 }
 
@@ -12,13 +13,14 @@ h1, h2{
     padding: 10px 10px 10px 10px;
 }
 
-
 .grid-container{
     background-color: rgba(127, 255, 212, 0.5);
-    padding: 10px 10px 10px 10px;
+    padding: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    border-radius:10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Media query for small screens */
@@ -29,7 +31,8 @@ h1, h2{
 }
 
 .media-column{
-    padding: 20px 0px 10px 75px;
+    width: 40%;
+    padding: 20px ;
 }
 
 video{
@@ -39,7 +42,8 @@ video{
 }
 
 .text-column{
-    padding: 40px 20px 10px 0px;
+    width: 40%;
+    padding: 30px; /*40px 20px 10px 0px;*/
     font-size: 120%;
     grid-row: 1 / span 2;
 }
@@ -48,3 +52,29 @@ a:hover {
     color: red;
     font-size: 120%;
 }
+
+
+/* nav-menu pages styling*/
+.container, .footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+ul{
+    white-space: wrap;
+    word-break: break-word;
+}
+
+.back-to-top{
+    text-align: right;
+    font-family: fantasy;
+}
+.back-to-top:hover{
+    font-size: 150%;
+    transition-duration: 0.3s;
+}
+
