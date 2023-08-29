@@ -23,8 +23,14 @@
             <ul>
                 <li><b>Art Direction Problem</b> - Rendering images specific for browser/device size</li>
                 <li><b>Resolution Switching Problem</b> - Same images to be displayed in differing number of pixels based on browser/device size</li>
-
             </ul>
+        </p>
+        <p> Surprisingly, the solution to either of the problems mentioned above is to add images of different resolutions, detail and orientation as follows :
+            <ul>
+                <li>Resolution Switching Problem - Use <code>&lt;img&gt;</code> element and its <code>srcset</code> and <code>sizes</code> attributes, OR SVG images if not too complex</li>
+                <li>Art Direction Problem - Crop images as required for different layouts and use <code>&lt;picture&gt;</code> and <code>&lt;source&gt;</code> elements with <code>media</code> and <code>srcset</code> attributes.</li>
+            </ul> 
+            Hence, not much to display under this topic.
         </p>
     </div>
 </body>

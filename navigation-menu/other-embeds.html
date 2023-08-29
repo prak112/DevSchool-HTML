@@ -46,7 +46,7 @@
             gyroscope; picture-in-picture; web-share" 
             allowfullscreen>
         </iframe>
-
+<hr>
         <!--map-->
         <iframe width="560" height="450" 
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7865.152931605858!2d22.0053239!3d60.4734703!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468b88ccd92014f7%3A0xe5f953b8c441c093!2sMoomin%20World!5e0!3m2!1sen!2sfi!4v1693306044058!5m2!1sen!2sfi" 
@@ -56,35 +56,30 @@
         </div>
 
         <div class="text-column">
-        <pre>
+        <p>
             Here, we embedded a video, a map and website using the <code>&lt;iframe&gt;</code> element.
-            
+            <ul>
             This embedded Youtube video is about <i>"Learning Web Development as an Absolute Beginner" by Coder Coder</i>.
             They explain the basics of web development in a very simple way. The topics discussed are : 
-            - Roles of web developers, the importance of code editors, types of files that make up website's front end.
-            - Tools for front-end web development such as package managers, build tools, and version control.
-            - Front-end skills like Sass, responsive design, and JavaScript frameworks like React.
-            - 3 Main components of backend development such as server, server-side programming languages, and databases.
-            
+                <li>Roles of web developers, the importance of code editors, types of files that make up website's front end.</li>
+                <li>Tools for front-end web development such as package managers, build tools, and version control.</li>
+                <li>Front-end skills like Sass, responsive design, and JavaScript frameworks like React.</li>
+                <li>3 Main components of backend development such as server, server-side programming languages, and databases.</li>
+            </ul>
             <em>Video summary built using <a href="https://www.summarize.tech/">summarize.tech</a>. Possible inaccuracies.</em>
+        </p>
+<hr>   
+        <pre>
+Here, we have a Google map location of Moomin World, a Moomin themed amusement park.
 
+You can check about Moomin and other characters from the embedded website by <b>Moomin Characters Oy.</b> 
+Click on "Hamburger Menu" (three horizontal lines) on left to check about other Moomin characters.
 
-
-
-
-        
-
-
-           Below the Youtube video we have a Google map location of Moomin World, a Moomin themed amusement park.
-           
-           You can check about Moomin and other characters from the embedded website by <b>Moomin Characters Oy.</b> 
-           Click on "Hamburger Menu" (three horizontal lines) on left to check about other Moomin characters.
-           
-           OR You could just <a href="https://www.moomin.com/en/characters/moomintroll">visit their webpage</a>, which is much more comfortable! ;D
-            <iframe width="75%" height="450"
-                src="https://www.moomin.com/en/characters/moomintroll/"
-                title="Moomin World" frameborder="10">
-            </iframe>
+OR You could just <a href="https://www.moomin.com/en/characters/moomintroll">visit their webpage</a>, which is much more comfortable! ;D
+<iframe width="75%" height="300"
+    src="https://www.moomin.com/en/characters/moomintroll/"
+    title="Moomin World" frameborder="10">
+</iframe>
         </pre>
         </div>
     </div>
@@ -99,7 +94,7 @@
                 <li>To prevent Clickjacking attacks, do the following :
                     <li>Always use <code>sandbox</code> attribute.</li>
                     <li>Use HTTPS-enabled hosting with neccessary certification using <a href="https://letsencrypt.org/">Let's Encrypt</a>.</li>
-                    <li>Secure all <code>&lt;iframe&gt;</code> elements by configuring server in JS/HTTP/XML to send appropriate<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options"><code>X-Frame-Options</code></a> header.</li> 
+                    <li>Secure all <code>&lt;iframe&gt;</code> elements by configuring server in JS/HTTP/XML to send appropriate <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options"><code>X-Frame-Options</code></a> header.</li> 
                 </li>
                 <li><b>PS : These are mostly notes for myself :) </b></li>
             </ul>
