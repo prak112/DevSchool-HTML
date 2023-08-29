@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
+    <h1>Vector Graphics</h1>
     <div class="container">
         <p>
             <ul>
@@ -15,6 +16,58 @@
                 <li><a href="other-embeds.html">Other Embedding Technologies</a></li>
             </ul>
         </p>
+
+        <p>Vector Graphics are used to create images and illustrations. Images can be rendered in 2 ways :
+            <ul>
+                <li>Vector Images - SVG (Scalable Vector Graphics) </li>
+                <li>Raster Images - PNG, JPEG, GIF, BMP</li>
+            </ul>
+        </p> 
+        
+        <p>
+            <ul>
+                <li>SVG is an algorithm which defines the image's shape, size, color and orientation</li>
+                <ul> 
+                    <li>Renders without pixelating and almost instantly,</li>
+                    <li>Complex shapes creation can be <em>cumbersome.</em></li>
+                </ul>
+                <li>Raster Image is a pixel-based image, where each pixel is a color</li>
+                    <ul>
+                    <li>Renders with pixelating if stressed and takes longer to render,</li>
+                    <li>Complex shapes creation is <em>easy.</em></li>
+                    </ul>
+                <li>SVG is defined using XML</li>
+                <li>Zoom into this page and see the differnce between the 2 images - <a href="https://mdn.github.io/learning-area/html/multimedia-and-embedding/adding-vector-graphics-to-the-web/vector-versus-raster.html">GitHub's Vector vs Raster example</a></li>
+                <li>SVG can be added to HTML content using :</li>
+                    <ul>
+                        <li>SVG added to webpage using src and srcset - cannot be styled or interacted with using CSS or JS</li>
+                        <li>SVG added using SVG inline with <code>&lt;svg&gt;</code> - can be styled using CSS</li>
+                        <li>Every approach has its own pros and cons, use <code>&lt;svg&gt;</code> if you prefer styling content.</li>
+                        <li>However, SVG is not supported by all browsers and multiple SVG inline images could slowdown the page.</li>
+                    </ul>
+                <li>SVG images are invaluable in responsive design since they could infinitely scale without losing quality.</li>
+                <li>SVG images complexity can be reduced using tools like <a href="https://inkscape.org/">Inkscape</a> which is also free and open source.</li>
+            </ul>
+        </p>
+    </div>
+    <div class="grid-container">
+        <div class="media-column">
+            <svg width="150%" height="125%">
+                <rect width="100%" height="100%" fill="red"/>
+                <circle  cx="100%" cy="100%" r="50%" fill="blue" stroke="black"/>
+                <polygon points="100 0 230 245 0 250" fill="green"/>
+                <ellipse cx="10%" cy="10%" rx="10%" ry="10%" fill="yellow" stroke="black"/>
+                <text x="50%" y="50%" text-anchor="middle" fill="white" stroke="white" stroke-width="2" font-size="30" 
+                font-family="Roboto">This is S-V-G!</text>
+            </svg>
+        </div>
+        <div class="text-column">
+            <pre>
+                This simple SVG illustration was created using <code>&lt;svg&gt;</code> element and its attributes i.e.,
+                using SVG inline with simple shapes like <code>&lt;rect&gt;</code>, <code>&lt;circle&gt;</code>, <code>&lt;ellipse&gt;</code>, 
+                <code>&lt;polygon&gt;</code> and <code>&lt;text&gt;</code>.
+            </pre>
+        </div>
     </div>
 </body>
 </html>
