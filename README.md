@@ -1,7 +1,6 @@
 # Overview
 - Workflow to create this webpage - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/)
 - Learnings on the way - [Main README](https://github.com/prak112/DevSchool-HTML#topics-learned)
-- Static website published using GitHub Pages - <a href="https://prak112.github.io/DevSchool-HTML" target="_blank" rel="noopener"> SuperCats website</a> 
 - Local Server rendering as expected (standard reference point)
 - Resolved CSS and JS rendering issue with help of this [closed Stack Overflow query](https://stackoverflow.com/questions/52003005/css-not-working-on-github-pages)
 
