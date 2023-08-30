@@ -6,4 +6,5 @@
     - Add navigation between different other embedding technologies and techniques
 - Uniform styling of content amongst all pages in the navigation
 - Building and styling <code>grid</code> with columns using <code>class</code> in HTML
+- Learnings on the way - [Main README](https://github.com/prak112/DevSchool-HTML#topics-learned)
 - Published website - [Multimedia Content](https://prak112.github.io/DevSchool-HTML/)
