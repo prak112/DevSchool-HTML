@@ -21,12 +21,12 @@
             <ul>
                 <li><a href="../index.html">Back To Basics</a></li>
                 <li><a href="responsive-images.html">Responsive Images</a></li>
-                <li><a href="other-embeds.html">Other Embedding Technologies</a></li>
+                <li><a href="other-embeds.html">Other Embedding elements</a></li>
             </ul>
         </p>
     </div>
 </br>
-    <div class="container">
+    <div class="notes-container">
         <p>Vector Graphics are used to create images and illustrations. Images can be rendered in 2 ways :
             <ul>
                 <li>Vector Images - SVG (Scalable Vector Graphics) </li>
@@ -63,9 +63,9 @@
 </br>
     <div class="grid-container">
         <div class="media-column">
-            <cite>Source : <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web#active_learning_playing_with_svg">MDN Web Docs</a></cite>
+            <cite class="credits">Source : <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web#active_learning_playing_with_svg">MDN Web Docs</a></cite>
 
-            <svg width="150%" height="125%">
+            <svg class="image" width="100%" height="100%" position="absolute">
                 <rect width="100%" height="100%" fill="red"/>
                 <circle  cx="100%" cy="100%" r="50%" fill="blue" stroke="black"/>
                 <polygon points="100 0 230 245 0 250" fill="green"/>
@@ -73,14 +73,13 @@
                 <text x="50%" y="50%" text-anchor="middle" fill="white" stroke="white" stroke-width="2" font-size="30" 
                 font-family="Roboto">This is S-V-G!</text>
             </svg>
-        </div>
-        <div class="text-column">
-            <pre>
+            <p>
                 This simple SVG illustration was created using <code>&lt;svg&gt;</code> element and its attributes i.e.,
                 using SVG inline with simple shapes like <code>&lt;rect&gt;</code>, <code>&lt;circle&gt;</code>, <code>&lt;ellipse&gt;</code>, 
                 <code>&lt;polygon&gt;</code> and <code>&lt;text&gt;</code>.
-            </pre>
+            </p>
         </div>
-        </div>
+        <a href="#" class="back-to-top">Back to Top</a>
+    </div>
 </body>
 </html>

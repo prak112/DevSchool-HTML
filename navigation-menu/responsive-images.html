@@ -21,12 +21,12 @@
             <ul>
                 <li><a href="../index.html">Back To Basics</a></li>
                 <li><a href="vector-graphics.html">Vector Graphics</a></li>
-                <li><a href="other-embeds.html">Other Embedding Technologies</a></li>
+                <li><a href="other-embeds.html">Other Embedding elements</a></li>
             </ul>
         </p>
     </div>
     </br>
-    <div class="container">
+    <div class="notes-container">
         <p>Issues which provided the neccessity for Responsive Design or in our case, Responsive Images :
             <ul>
                 <li><b>Art Direction Problem</b> - Rendering images specific for browser/device size</li>
@@ -40,6 +40,36 @@
             </ul> 
             Hence, not much to display under this topic.
         </p>
+    </div>
+    <h2>Takeaways from Responsive Design</h2>
+    <div class="footer">
+        <p>
+            However, in my own research and exploration I found that my design was already responsive. 
+            <li>Mistakes made were:</li>
+            <ul>
+                <li>Building a very stiff desing with <code>&lt;div&gt;</code> elements within a container</li>
+                <li><code>&lt;div&gt;</code> element classes - <code>.grid-container</code>, <code>.media-column</code> and <code>.text-column</code> 
+                    which complicated the setup for a responsive layout</li>
+                <li>Over complicating the layout with too many <code>&lt;div&gt;</code> elements</li>
+            </ul>
+            <li>Mistakes were corrected by simplifying the layout by :</li>
+            <ul>
+                <li>Removing the excess <code>&lt;div&gt;</code> elements within HTML</li>
+                <li>Remove the over-complicated CSS for each of the classes - <code>.grid-container</code>, <code>.media-column</code> and <code>.text-column</code></li>
+                <li>Adding simple flex display for <code>.grid-container</code> with defining properties</li>
+                <li>Adding min- and max- height and width properties for <code>.image</code>class, <code>&lt;video&gt;</code> and <code>&lt;iframe&gt;</code> elements</li>
+                <li>Adding <code>float</code> property to <code>&lt;iframe&gt;</code> element for the text to freely flow around the image for responsiveness</li>
+                <li>Verification of HTML design and CSS style from <a href="https://www.codeium.com/">Codeium</a></li>
+            </ul>
+            <li>Other considerations :</li>
+            <ul>
+                <li>Grid - applicable for 2 dimensional layouts, very specific for grid-based content, but has limited support across different browsers</li>
+                <li>Flexbox - applicable for 1 dimensional layout (either horizontal or vertical), has better support across different browsers</li>
+                <li>ALWAYS check labeling!</li>
+            </ul>
+            <li><b>PS : These are mostly notes for myself :) </b></li>
+        </p>
+        <a href="#" class="back-to-top">Back to Top</a>
     </div>
 </body>
 </html>
