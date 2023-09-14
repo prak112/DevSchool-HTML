@@ -1,20 +1,45 @@
-header{
-    background: radial-gradient(circle, #bbfeb3, #FFFFE0);
-    padding: 5px;
-    color: #333;
-    text-align: center;
-    border-radius: 5px;
-  }
+
 
 body{
-    background: radial-gradient(farthest-side, #bbfeb3, #ADD8E6) /*bisque*/;
+    background: #F0F0F0 ;
+    color: #333333 ;
 }
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4C4CFF ;
+}
+nav > ul
+{
+    display: inline-flex;
+}
+nav ul li
+{
+    margin-right: 25px;
+    list-style: none;
+}
+nav ul li a
+{    
+    text-decoration: none;
+    color: chartreuse;
+}
+
+header{
+    display: flex;
+    background: #F0F0F0 ;
+    padding: 5px;
+    color: #333333 ;
+    align-items: center;
+    border-radius: 5px;
+  }
 
 h1, h2{
     text-align: center;
     padding: 20px 20px 0px 20px;
-    color: steelblue;
-    text-shadow: 1px 1px 2px rgba(128, 255, 255, 0.75);
+    color: darkgrey;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
 }
 
 .grid-container{
@@ -54,8 +79,9 @@ iframe, .image, video{
 }
 
 a:hover {
-    color: blueviolet;
-    font-size: 120%;
+    color: #FFA500;
+    transition: 0.2s;
+    text-transform: uppercase;
 }
 
 .back-to-top{
@@ -87,14 +113,22 @@ ul, p, pre{
 }
 
 .credits{
-    padding-right: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.credits > ul
+{
+    list-style: none;  
+}
+.credits ul li
+{
+    padding-bottom: 10px;
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .grid-container {
         max-width: auto;
-        /*grid-template-columns: repeat(1, 1fr); /* Two columns */
     }
     ul, p, pre, .credits{
         font-size: small;
