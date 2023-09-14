@@ -72,8 +72,11 @@
 ```
     
 ```bash
-    $ git rm director/*  
-    :'to remove non-essential directory from "newbranch" including the files'
+    $ git rm directory/*  
+    :'to remove non-essential directory from "newbranch" including the files
+    OR'
+    $ git rm -rf .
+    :'forced and recursive removal of all files in the current directory'
 ```
 
 ```bash
