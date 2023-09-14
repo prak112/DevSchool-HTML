@@ -30,6 +30,10 @@
     - Embed video content with poster and subtitles
     - Style page in grid format
     - Build navigation menu (as in devjournal) between different topics
+- [Mockup]()
+    - Build a mockup site of the original Pulse webpage
+    - Strong focus on learning from In-Browser DevTools
+    - Useful resources from [FrontEndPractice](https://www.frontendpractice.com/projects/)
 
 
 ## Topics Learned
