@@ -54,6 +54,11 @@
 
 
     /*Pulse pricing blocks*/
+    .pricing-container
+    {
+        padding: 0;
+        margin: 0 auto;
+    }
     .pricing-block-outer
     {
         flex-direction: column;
@@ -64,7 +69,8 @@
         flex: none;
         flex-wrap: wrap;
         width: 100%;
-        margin-bottom: 20px;
+        margin: 2px 2px 20px 2px;
+        padding: 2px 2px 2px 2px;
         background-color: #fff;
         border-color: #00ad6a;
         border-radius: 8px 8px 0 0;
